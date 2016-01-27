@@ -1,0 +1,118 @@
+.container {
+	width: 60%;
+	margin: auto;
+	overflow: none;
+}
+
+.logo {
+	float: left;
+}
+nav {
+	width: 100%;
+}
+nav ul {
+	list-style: none;
+}
+
+nav li {
+	float: right;
+	margin: 5% 0 0 5%;
+	font-size: 2.5em;
+
+}
+
+nav a {
+	text-decoration: none;
+	color: #888;
+}
+
+.anvil {
+	clear: both;
+}
+
+.anvil img {
+	width: 100%;
+	height: auto;
+}
+.why_acme {
+	width: 41%;
+	float: left;
+	margin-left: 5%;
+	margin-right: 10%;
+	color: #888;
+}
+
+.anvil_working {
+	width: 41%;
+	float: left;
+	color: #888;
+}
+
+@media all and (max-width: 1012px){
+.logo {
+	float: none;
+}
+
+.why_acme {
+	float: none;
+	width: 100%;
+	margin-left: 0;
+}
+
+.anvil_working {
+	float: none;
+	width: 100%;
+
+}
+
+}
+
+@media all and (max-width: 715px){
+
+nav li {
+	font-size: 1.5em;
+}
+}
+
+@media all and (max-width: 461px){
+
+nav li {
+	font-size: 1em;
+}
+}
+@media all and (max-width: 400px){
+.container {
+	width: 95%;
+}
+
+.logo{
+	width: 100%;
+}
+
+nav ul {
+	padding-left: 0;
+}
+nav li {
+	margin-left: 0;
+	float: none;
+}
+.anvil {
+	display: none;
+}
+.why_acme {
+	margin-left:0;
+	width: 100%;
+	float: none;
+}
+
+.anvil_working{
+	width: 100%;
+	float: none;
+}
+
+}
+
+
+
+
+
